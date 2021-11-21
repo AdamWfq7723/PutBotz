@@ -4045,8 +4045,8 @@ if (!isQuotedSticker) return reply(`Reply Stikernya`)
 	const colonge = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 			const mediee = await PutBotz.downloadAndSaveMediaMessage(colonge, `./sticker/${sender}`)
 	anee = args.join(" ").split("|");
-	pempa = anee[0] !== "" ? anee[0] : `It's Me Chandra`;
-	autpa = typeof anee[1] !== "undefined" ? anee[1] : `YT SC ORI: Project PutBotz YT:PutBotz BOTS`;
+	pempa = anee[0] !== "" ? anee[0] : `It's Me PutraGanzz`;
+	autpa = typeof anee[1] !== "undefined" ? anee[1] : `YT SC ORI: Project PutraGanzz YT:PutraGanzz`;
 	exif.create(pempa, autpa, `takestick_${sender}`)
 	exec(`webpmux -set exif ./sticker/takestick_${sender}.exif ./sticker/${sender}.webp -o ./sticker/${sender}.webp`, async (error) => {
 	if (error) return reply(mess.error.api)
@@ -4117,6 +4117,7 @@ case 'sticker':
 //•======>> SUBSCRIBE : PutraGanzzI <<====•\\
 					case 'stickerwm':
 					case 'swm':
+                                        case 'wm':
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							ppp = `${args.join(' ')}`
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -4206,9 +4207,9 @@ case 'ppcouple':
 case 'ppcp': 
 			anu = await fetchJson(`https://ziyy.herokuapp.com/api/ppcouple?apikey=xZiyy`) 
 			cowo = await getBuffer(anu.result.cowo_image)
-			PutBotz.sendMessage(from, cowo, image, {caption: 'Ini Untuk »  *𝗖𝗼𝘄𝗼𝗸𝗻𝘆𝗮'})
+			PutBotz.sendMessage(from, cowo, image, {caption: 'Ini Untuk »  *Cowoknya'})
        cewe = await getBuffer(anu.result.cewe_image)
-		    pll = `Ini Untuk » *𝗖𝗲𝘄𝗲𝗸𝗻𝘆𝗮*`
+		    pll = `Ini Untuk » *Ceweknya*`
    sendButImage(from, pll, `PutBotz © 2021`, cewe, [                      
           {
             buttonId: `${prefix}ppcouple`,
