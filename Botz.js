@@ -5348,11 +5348,11 @@ Ciee cari Script Gratisan :v, Tuh ngab download diatas jangan Lupa Follow Mastah
 
 • https://github.com/dcode-denpa/bitch-boot
 • https://youtube.com/c/DcodeDenpa
-`, text, { thumbnail: dfrply, sendEphemeral: true, quoted: fvid, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "📲 SCRIPT DISNI📲",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/script.jpg'),sourceUrl:"https://youtube.com/channel/UCJUY1QgTNGemaJPuN2fTQxQ"}}} )
+`, text, { thumbnail: dfrply, sendEphemeral: true, quoted: fvid, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "📲 SCRIPT DISNI📲",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/script.jpg'),sourceUrl:"https://youtube.com/channel/"}}} )
 
 		break
 case 'partnerbot':
-		PutBotz.sendMessage(from, `*Partner BOT PutBotz*\n\n- Bot Chandra :\nhttps://wa.me/6285854721440?text=.menu\nThanks Udah Makek Bot ini😉`, text, { thumbnail: dfrply, sendEphemeral: true, quoted: fvid, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "📲 SCRIPT DISNI📲",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/script.jpg'),sourceUrl:"https://youtube.com/channel/UCJUY1QgTNGemaJPuN2fTQxQ"}}})
+		PutBotz.sendMessage(from, `*Partner BOT PutBotz*\n\n- PUTTBOTZ :\nhttps://wa.me/6285854721440?text=.menu\nThanks Udah Makek Bot ini😉`, text, { thumbnail: dfrply, sendEphemeral: true, quoted: fvid, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "📲 SCRIPT DISNI📲",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/script.jpg'),sourceUrl:"https://youtube.com/channel/UCJUY1QgTNGemaJPuN2fTQxQ"}}})
 		break
 case 'script': case 'sc': case 'esce': case 'source':
 if (!isGroup) return reply('Script sedang perbaikan. Ketik .script2')
